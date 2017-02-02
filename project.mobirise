@@ -1,0 +1,1735 @@
+{
+  "settings": {
+    "name": "Powerpoint Lifestyles",
+    "currentPage": "contact.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#4b0082",
+        "buttonsColor": "#ffffff",
+        "secondaryColor": "#4b0082",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Lato",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.11",
+    "uniqCompNum": 88,
+    "versionPublish": "3.11",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#e67e22"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#e67e22"
+            },
+            ".link, .dropdown-item": {
+              "color": "#e67e22"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#e67e22"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#e67e22",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#4b0082!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#e67e22",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logomakr-7sfwau-428x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center",
+              "font-size": "16px",
+              "font-family": "'Roboto Slab', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-8",
+          "_params": {
+            "imageSize": "30",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#e74c3c",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#333333",
+            "showText": true,
+            "showTitle": false,
+            "showButtons": false,
+            "showImage": true
+          },
+          "text": "Powerpoint Lifestyles (Pty) Ltd is a 100% black owned company based in Durban, KwaZulu Natal. The company was formally established in 2015 as a platform to promote career development within schools and higher education and training sector. It later expanded its scope of practice by providing HR solutions and Industrial Psychology services to both the private and public sector. The expansion in scope of practice has strengthened our service delivery model.&nbsp;",
+          "title": "Mobirise is free for both personal and commercial use",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/download-35-1400x861.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "letter-spacing": ".5vw",
+              "text-transform": "uppercase",
+              "font-size": "48px",
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "globe",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features16",
+          "_anchor": "features16-c",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#f9593a",
+            "showImages": true,
+            "showTitles": false,
+            "ShowTexts": true,
+            "showTitle": true,
+            "columns": 4
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": "100",
+              "color": "#553982",
+              "newWindow": false
+            }
+          },
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "All our employees hold recognised and credible qualifications in either the field of Human Resources and/or Industrial Psychology",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "calendar",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": "100",
+              "color": "#553982",
+              "newWindow": false
+            }
+          },
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Our staff members are registered with various associations and boards, thus ensuring ethical and professional services",
+          "title": "OUR CREDENTIALS",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "cash",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": "100",
+              "color": "#553982",
+              "newWindow": false
+            }
+          },
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "We provide flexible and comprehensive services suitable for each client at a cost-effective rate",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": "100",
+              "color": "#553982",
+              "newWindow": false
+            }
+          },
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "The founders have diverse experience in managing a business and ensuring credible business practices."
+        },
+        {
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "14px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-l",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "cat1": "<b>address</b>",
+          "title1": "77 Richiefond Circle&nbsp;<div>Ridgeside</div><div>Umhlanga Rocks</div><div>4319</div><div><br></div>",
+          "cat2": "<b>phone</b>",
+          "title2": "+27 (0)76 520 5504",
+          "cat3": "<b>email</b>",
+          "title3": "admin@powerpointlifestyles.co.za",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "form": {
+            "action": "nhlanhla.nyide@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "12px",
+              "color": "#000000"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-o",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Powerpoint Lifestyle. Designed by <a href=\"http://bestenoughtrading.co.za\" target=\"_blank\">Best Enough</a>."
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#e67e22"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#e67e22"
+            },
+            ".link, .dropdown-item": {
+              "color": "#e67e22"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#e67e22"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#e67e22",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#4b0082!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-u",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#e67e22",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logomakr-7sfwau-428x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://powerpointlifestyles.co.za",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-2b",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/07.jpg",
+            "bgColor": "#4b0082",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showText1": false
+          },
+          "title": "About Us",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">start here</a>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>."
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "P": {
+              "font-size": "16px"
+            },
+            "B": {
+              "font-size": "17px"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content4-x",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>Vision&nbsp;</b><div>To become the leading service providers for HR solutions and Industrial Psychology services within South Africa through innovative strategies and high quality resource use.&nbsp;</div><div><b><br></b></div><div><b>Mission&nbsp;</b></div><div>To provide excellent quality services to clients, by using innovative strategies to develop people and increase organisational performance. &nbsp;</div><div><b><br></b></div><div><b>Core Values</b></div><ul><li>Commits to providing services to our clients in an honest and open manner, maintaining the highest integrity at all times.</li><li>Committing to the services and providing high quality in all services.</li><li>Empowering both our staff and clients by creating a platform to learn and develop through innovative ways in delivering our services.</li></ul><div><br></div>"
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "140px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "60px"
+            },
+            ".nav-tabs": {
+              "margin-top": "90px"
+            }
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-2f",
+          "_params": {
+            "tabs": "2",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/04.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#4b0082",
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": true
+          },
+          "title": "Our<br>Focus Areas",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "worker",
+              "family": "icon54",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "title1": "HUMAN RESOURCES",
+          "text1": "We take pride in our excellent quality HR services that assist organisations to align the human resources management systems to their existing business objectives. We partner up with organisations in order to assess and manage compliance to all labour legislation within South Africa. We develop and implement HR strategies, and provide effective HR management.&nbsp;",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "brain-2",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "title2": "INDUSTRIAL PSYCHOLOGY",
+          "text2": "We provide a consultancy service using our solid theoretical and practical background in psychology by assisting small to medium businesses with organisational development. Through talent management we aim to develop a productive workforce that is efficient and effective in their respective roles. In simple terms we assist businesses to maximize employee efficiency and retain its employees. &nbsp;",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title3": "TRENDY WEBSITE BLOCKS",
+          "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title4": "HOST ANYWHERE",
+          "text4": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-2f\" aria-expanded=\"true\">HUMAN ResoURCES</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-white\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-2f\" aria-expanded=\"false\">INDUSTRIAL PSYCHOLOGY</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-2f\">Animated</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-2f\">Awesome</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-2f\" aria-expanded=\"true\">Amazing</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-2f\">Beautiful</a></li>"
+        },
+        {
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "14px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-15",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "cat1": "<b>address</b>",
+          "title1": "77 Richiefond Circle&nbsp;<div>Ridgeside</div><div>Umhlanga Rocks</div><div>4319</div><div><br></div>",
+          "cat2": "<b>phone</b>",
+          "title2": "+27 (0)76 520 5504",
+          "cat3": "<b>email</b>",
+          "title3": "admin@powerpointlifestyles.co.za",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "form": {
+            "action": "nhlanhla.nyide@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "12px",
+              "color": "#000000"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-16",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Powerpoint Lifestyle. Designed by <a href=\"http://bestenoughtrading.co.za\" target=\"_blank\">Best Enough</a>."
+        }
+      ]
+    },
+    "services.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#e67e22"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#e67e22"
+            },
+            ".link, .dropdown-item": {
+              "color": "#e67e22"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#e67e22"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#e67e22",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#4b0082!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-17",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#e67e22",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logomakr-7sfwau-428x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://powerpointlifestyles.co.za",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-2c",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/07_1.jpg",
+            "bgColor": "#4b0082",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showText1": false
+          },
+          "title": "Our Services",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">start here</a>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>."
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_styles": {
+            "H4": {
+              "color": "#000000"
+            },
+            "UL": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content6-1e",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "<h4>Human Resource Solutions:</h4><ul><li>Recruitment and Selection</li><li>Job Evaluation and Job Grading</li><li>Performance Management Systems</li><li>Change Management</li><li>Industrial Relations</li><li>Employment Equity&nbsp;</li><li>Skills Development</li><li>HR Policies and Procedures Administration</li><li>HR Administration and Payroll Services</li></ul><div><br></div><h4>Mentoring and Coaching:</h4><ul><li><span style=\"font-size: 1rem; line-height: 1.85em;\">Self-Development</span><br></li><li>Mentorship and Coaching Programmes</li></ul><h4><br></h4><div><br></div>",
+          "text2": "<h4>Psychometrics and Competency based assessment:</h4><ul><li><span style=\"font-size: 1rem; line-height: 1.85em;\">Recruitment and Selection</span><br></li><li>Learner Career Development</li><li>Professional Career Development&nbsp;</li><li>Performance Management Systems</li></ul><h4><br></h4><h4><span style=\"font-family: inherit; font-size: 1.5rem; line-height: 1.1;\">Training and Development:</span><br></h4><ul><li>Career Development Frameworks&nbsp;</li><li>Career Management Workshops</li><li>Leadership Workshop</li></ul><div><br></div>"
+        },
+        {
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "14px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-1i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "cat1": "<b>address</b>",
+          "title1": "77 Richiefond Circle&nbsp;<div>Ridgeside</div><div>Umhlanga Rocks</div><div>4319</div><div><br></div>",
+          "cat2": "<b>phone</b>",
+          "title2": "+27 (0)76 520 5504",
+          "cat3": "<b>email</b>",
+          "title3": "admin@powerpointlifestyles.co.za",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "form": {
+            "action": "nhlanhla.nyide@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "12px",
+              "color": "#000000"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1j",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Powerpoint Lifestyle. Designed by <a href=\"http://bestenoughtrading.co.za\" target=\"_blank\">Best Enough</a>."
+        }
+      ]
+    },
+    "gallery.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#e67e22"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#e67e22"
+            },
+            ".link, .dropdown-item": {
+              "color": "#e67e22"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#e67e22"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#e67e22",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#4b0082!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1k",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#e67e22",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logomakr-7sfwau-428x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://powerpointlifestyles.co.za",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-2d",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/07_1.jpg",
+            "bgColor": "#4b0082",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showText1": false
+          },
+          "title": "Gallery",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">start here</a>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>."
+        },
+        {
+          "_inherit": "gallery1",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pl1-2000x1501-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/pl1-2000x1501.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pl5-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pl5-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pl2-2000x1501-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/pl2-2000x1501.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pl7-2000x1501-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pl7-2000x1501.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-1t",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "14px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-1v",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "cat1": "<b>address</b>",
+          "title1": "77 Richiefond Circle&nbsp;<div>Ridgeside</div><div>Umhlanga Rocks</div><div>4319</div><div><br></div>",
+          "cat2": "<b>phone</b>",
+          "title2": "+27 (0)76 520 5504",
+          "cat3": "<b>email</b>",
+          "title3": "admin@powerpointlifestyles.co.za",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "form": {
+            "action": "nhlanhla.nyide@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "12px",
+              "color": "#000000"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1w",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Powerpoint Lifestyle. Designed by <a href=\"http://bestenoughtrading.co.za\" target=\"_blank\">Best Enough</a>."
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#e67e22"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#e67e22"
+            },
+            ".link, .dropdown-item": {
+              "color": "#e67e22"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#e67e22"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#e67e22",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#4b0082!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1x",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#e67e22",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logomakr-7sfwau-428x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://powerpointlifestyles.co.za",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-2e",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/07_1.jpg",
+            "bgColor": "#4b0082",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showText1": false
+          },
+          "title": "Contact Us",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">start here</a>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>."
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-2a",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": false,
+            "showTitle": false,
+            "showText": true
+          },
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "title": "CONTACT FORM",
+          "text": "Would you like to know more about Human Resources and Industrial Psychology services? Need an answer to a question? We’re very interested in what you have to say.",
+          "form": {
+            "action": "nhlanhla.nyide@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "14px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-28",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "cat1": "<b>address</b>",
+          "title1": "77 Richiefond Circle&nbsp;<div>Ridgeside</div><div>Umhlanga Rocks</div><div>4319</div><div><br></div>",
+          "cat2": "<b>phone</b>",
+          "title2": "+27 (0)76 520 5504",
+          "cat3": "<b>email</b>",
+          "title3": "admin@powerpointlifestyles.co.za",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "form": {
+            "action": "nhlanhla.nyide@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "12px",
+              "color": "#000000"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-29",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Powerpoint Lifestyle. Designed by <a href=\"http://bestenoughtrading.co.za\" target=\"_blank\">Best Enough</a>."
+        }
+      ]
+    }
+  }
+}
